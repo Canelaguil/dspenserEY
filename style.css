@@ -13,6 +13,7 @@ body {
     background-color: #fcf9f9;
     position: absolute;
     z-index: -2;
+    width: 100%;
 }
 
 @media only screen and (max-width : 992px) {
@@ -83,4 +84,8 @@ h1 {
 .submitbtn {
     color: #333333 !important;
     font-weight: bolder;
+}
+
+.submitbtn:hover {
+    background-color: navajowhite !important;
 }
