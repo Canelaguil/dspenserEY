@@ -1,0 +1,50 @@
+﻿header, main, footer {
+    padding-left: 300px;
+}
+
+body {
+    padding: 0px;
+}
+
+#maincontainer {
+    padding-left: 300px;
+    top: 0px;
+    background-color: #fcf9f9;
+    position: absolute;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+.leftnav {
+    background-color: #333333;
+}
+
+.menuoption {
+    color: white !important;
+    font-size: 18px;
+}
+
+.logocl {
+    width: 200px;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+h1 {
+    color: #333333;
+    margin: 30px;
+}
+
+.banner {
+    background-color: #c6bc5f;
+}
+
+.upperbanner {
+    height: 40px;
+}
