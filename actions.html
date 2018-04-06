@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="icon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <ul id="slide-out" class="sidenav sidenav-fixed leftnav">
@@ -18,13 +19,15 @@
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <div id="maincontainer">
+        <div id="backyellow"></div>
         <h1>Actions</h1>
         <div class="row">
             <div class="col s6">
                 <div class="card">
                     <div class="card-image">
                         <img height="400px;"src="bon.jpg">
-                        <span class="card-title">Card Title</span>
+                        <span class="card-title">De Vijfsprong</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light editbutton"><i class="material-icons myIcon">create</i></a>
                     </div>
                     <div class="card-content">
                         <p>
@@ -33,12 +36,38 @@
                         </p>
                     </div>
                     <div class="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="#">SUBMIT</a>
                     </div>
                 </div>
             </div>
             <div class="col s6">
-                This is a list of upcoming ones.
+                <table class="responsive">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Item Name</th>
+                            <th>Item Price</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Alvin</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                        </tr>
+                        <tr>
+                            <td>Alan</td>
+                            <td>Jellybean</td>
+                            <td>$3.76</td>
+                        </tr>
+                        <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>

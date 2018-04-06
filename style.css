@@ -11,6 +11,7 @@ body {
     top: 0px;
     background-color: #fcf9f9;
     position: absolute;
+    z-index: -1;
 }
 
 @media only screen and (max-width : 992px) {
@@ -47,4 +48,21 @@ h1 {
 
 .upperbanner {
     height: 40px;
+}
+
+.editbutton {
+    background-color: #ffe600;
+    color: #333333;
+}
+
+.myIcon {
+    color: #333333 !important;
+}
+
+#backyellow {
+    height: 300px;
+    width: 900px;
+    color: #ffe600;
+    position: fixed;
+    z-index: 0;
 }
