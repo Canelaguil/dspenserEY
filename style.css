@@ -7,7 +7,8 @@ body {
 }
 
 #maincontainer {
-    padding-left: 300px;
+    padding-left: 320px;
+    padding-right: 20px;
     top: 0px;
     background-color: #fcf9f9;
     position: absolute;
@@ -60,9 +61,15 @@ h1 {
 }
 
 #backyellow {
-    height: 300px;
-    width: 900px;
-    color: #ffe600;
+    height: 200px;
+    width: 2000px;
+    background-color: #ffe600;
     position: fixed;
-    z-index: 0;
+    top: 0px;
+    z-index: 1;
+}
+
+.zcolumns {
+    position: relative; 
+    z-index: 900 !important;
 }
