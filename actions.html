@@ -18,25 +18,26 @@
         <li><a class="menuoption" href="overview.html">Overview</a></li>
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    <div id="backyellow"></div>
     <div id="maincontainer">
+        <div id="backyellow"></div>
         <h1 class="zcolumns">Actions</h1>
         <div class="row zcolumns">
-            <div class="col s6">
-                <div class="card">
+            <div class="col s6 zcolumns">
+                <div class="card zcolumns">
                     <div class="card-image">
                         <img height="400px;"src="bon.jpg">
                         <span class="card-title">De Vijfsprong</span>
                         <a class="btn-floating halfway-fab waves-effect waves-light editbutton"><i class="material-icons myIcon">create</i></a>
                     </div>
                     <div class="card-content">
-                        <p>
-                            I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.
+                        <p>s
+                            <bold>Date:</bold> 23-04-2012
+                            <bold>Place:</bold> EY Berlin
+                            <bold>Kind:</bold> Unknown
                         </p>
                     </div>
                     <div class="card-action">
-                        <a href="#">SUBMIT</a>
+                        <a href="#modal1" class="modal-trigger submitbtn">SUBMIT</a>
                     </div>
                 </div>
             </div>
@@ -44,37 +45,47 @@
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">Pending Actions</span>
-                            <table class="responsive">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Item Name</th>
-                                        <th>Item Price</th>
-                                    </tr>
-                                </thead>
-
-                                <tbody>
-                                    <tr>
-                                        <td>Alvin</td>
-                                        <td>Eclair</td>
-                                        <td>$0.87</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Alan</td>
-                                        <td>Jellybean</td>
-                                        <td>$3.76</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Jonathan</td>
-                                        <td>Lollipop</td>
-                                        <td>$7.00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </p>
+                        <table class="responsive">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Place</th>
+                                    <th>Amount</th>
+                                    <th>State</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>23-04-12</td>
+                                    <td>Aug Restaurant</td>
+                                    <td>$0.87</td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>23-04-12</td>
+                                    <td>Kuh Restaurant</td>
+                                    <td>$0.87</td>
+                                    <td>x</td>
+                                </tr>
+                                <tr>
+                                    <td>23-04-12</td>
+                                    <td>Blegh Restaurant</td>
+                                    <td>$0.87</td>
+                                    <td>x</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="modal1" width="400px; !important" class="modal">
+        <div class="modal-content">
+            <p>You can't submit this item yet! There is still information missing.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">TAKE ME BACK</a>
         </div>
     </div>
 </body>

@@ -12,7 +12,7 @@ body {
     top: 0px;
     background-color: #fcf9f9;
     position: absolute;
-    z-index: -1;
+    z-index: -2;
 }
 
 @media only screen and (max-width : 992px) {
@@ -40,7 +40,10 @@ body {
 
 h1 {
     color: #333333;
-    margin: 30px;
+    margin: 20px;
+    font-size: 4em;
+    font-weight: bolder;
+
 }
 
 .banner {
@@ -61,15 +64,23 @@ h1 {
 }
 
 #backyellow {
-    height: 200px;
+    height: 500px;
     width: 2000px;
     background-color: #ffe600;
     position: fixed;
     top: 0px;
-    z-index: 1;
+    z-index: -1;
+    overflow: visible;
+    left: 0px;
+    transform: rotate(-10deg);
 }
 
 .zcolumns {
     position: relative; 
-    z-index: 900 !important;
+    z-index: 999 !important;
+}
+
+.submitbtn {
+    color: #333333 !important;
+    font-weight: bolder;
 }
