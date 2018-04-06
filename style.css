@@ -28,7 +28,7 @@ body {
 
 .menuoption {
     color: white !important;
-    font-size: 18px;
+    font-size: 18px !important;
 }
 
 .logocl {
@@ -88,4 +88,11 @@ h1 {
 
 .submitbtn:hover {
     background-color: navajowhite !important;
+}
+
+.uploadbtn {
+    background-color: #ffe600;
+    color: #333333 !important;
+    width: 60%;
+    font-weight: bolder;
 }
