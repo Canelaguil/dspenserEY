@@ -45,7 +45,7 @@ h1 {
     margin: 20px;
     font-size: 4em;
     font-weight: bolder;
-
+    display: inline-block;
 }
 
 .banner {
@@ -75,6 +75,7 @@ h1 {
     overflow: visible;
     left: 0px;
     transform: rotate(-10deg);
+    top: -90px;
 }
 
 .zcolumns {
@@ -96,10 +97,11 @@ h1 {
     color: #333333 !important;
     width: 60%;
     font-weight: bolder;
+    margin-top: 50px !important;
 }
 
 #backyellow2 {
-    height: 120px;
+    height: 130px;
     width: inherit;
     background-color: #ffe600;
     position: fixed;
@@ -112,6 +114,40 @@ h1 {
 .warningcard {
     background-color: #ffe600;
     height: 40px;
-    padding-top: 5px !important; 
-    padding-bottom: 5px !important;
+    
 }
+
+.textwarning {
+    padding: 8px !important;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #333333 !important;
+}
+
+input.valid:not([type]), select, select:active, input.valid:not([type]):focus, input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus, input[type=password].valid:not(.browser-default), input[type=password].valid:not(.browser-default):focus, input[type=email].valid:not(.browser-default), input[type=email].valid:not(.browser-default):focus, input[type=url].valid:not(.browser-default), input[type=url].valid:not(.browser-default):focus, input[type=time].valid:not(.browser-default), input[type=time].valid:not(.browser-default):focus, input[type=date].valid:not(.browser-default), input[type=date].valid:not(.browser-default):focus, input[type=datetime].valid:not(.browser-default), input[type=datetime].valid:not(.browser-default):focus, input[type=datetime-local].valid:not(.browser-default), input[type=datetime-local].valid:not(.browser-default):focus, input[type=tel].valid:not(.browser-default), input[type=tel].valid:not(.browser-default):focus, input[type=number].valid:not(.browser-default), input[type=number].valid:not(.browser-default):focus, input[type=search].valid:not(.browser-default), input[type=search].valid:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+    border-bottom: 2px solid #ffe600 !important;
+    box-shadow: 0 1px 0 0 #ffe600 !important;
+}
+
+.input-field > label {
+    color: #333333 !important; 
+}
+
+li.active {
+    color: #333333 !important;
+    background-color: #ffe600 !important;
+}
+
+ul:not(.browser-default) {
+    float: right;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    width: 100%;
+}
+
+.input-field {
+    display: inline-block;
+}
+
