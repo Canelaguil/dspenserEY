@@ -29,14 +29,24 @@
                     <div class="card-image">
                         <img height="400px" src="bon.jpg">
                         <span class="card-title">De Vijfsprong</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light editbutton"><i class="material-icons myIcon">create</i></a>
+                        <a href="#modal2"class="btn-floating halfway-fab editbutton modal-trigger"><i class="material-icons myIcon">create</i></a>
                     </div>
                     <div class="card-content">
-                        <p>
-                            <b>Date:</b> 23-04-2012  <br />
-                            <b>Place:</b> EY Berlin <br />
-                            <b>Kind:</b> Unknown <br />
-                        </p>
+                        <div class="row">
+                            <div class="col s6 ">
+                                <p>
+                                    <b>Date:</b> 23-04-2012  <br />
+                                    <b>Place:</b> EY Berlin <br />
+                                    <b>Kind:</b> Unknown 
+                                </p>
+                             </div>
+                            <div class="col s6 ">
+                                <p>
+                                    <b>Amount:</b> $67.98  <br />
+                                    <b>Number:</b> 23f94820 <br />
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-action">
                         <a href="#modal1" class="modal-trigger submitbtn">SUBMIT</a>
@@ -88,6 +98,58 @@
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">TAKE ME BACK</a>
+        </div>
+    </div>
+    <div id="modal2" width="400px !important" class="modal">
+        <div class="modal-content">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input value="23-04-2012" id="first_name2" type="text" class="validate">
+                            <label class="active" for="first_name2">Date</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input value="67.86$" id="first_name2" type="text" class="validate">
+                            <label class="active" for="first_name2">Amount</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input value="EY Berlin" id="first_name2" type="text" class="validate">
+                            <label class="active" for="first_name2">Place</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input disabled value="23f94820" id="first_name2" type="text" class="validate">
+                            <label class="in" for="first_name2">Number</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <select>
+                                <option value="0" dissabled selected>Unknown</option>
+                                <option value="1">Airfare</option>
+                                <option value="2">Gifts</option>
+                                <option value="3">Ground Transportation</option>
+                                <option value="4">Lodging</option>
+                                <option value="5">Meals</option>
+                                <option value="6">Mileage</option>
+                                <option value="7">Mobile Phone</option>
+                                <option value="8">Parking</option>
+                                <option value="9">Proffesional Practice</option>
+                                <option value="10">Telephone</option>
+                                <option value="11">Training Costs</option>
+                                <option value="12">Other</option>
+                            </select>
+                            <label>Kind of expense</label>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">SAVE</a>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>
